@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+input {
+    padding: 12px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+}
+
+.enviar {
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+#resultado {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+tr,
+td,
+th {
+    padding: 10px;
+}
+
+
+#col1 {
+    padding-right: 20px;
+    text-align: left;
+}
+
+#linha1,
+#linha3,
+#linha5 {
+    background-color: rgb(42, 42, 42);
+}
